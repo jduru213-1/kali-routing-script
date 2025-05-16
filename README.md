@@ -22,7 +22,7 @@ This script assumes:
 - `vmnet1` = first internal VM interface, where your **Windows victim (Active Directory server)** is connected
 - `vmnet2` = second internal VM interface, e.g., attacker VM or IDS/firewall VM
 
-> 🔧 **Tip:** You can modify the interface names inside the script (`kali_router_setup.sh`) to match your system. Use `ip a` to check your interface names.
+> 🔧 **Tip:** You can modify the interface names inside the script (`setup_kali_gateway.sh`) to match your system. Use `ip a` to check your interface names.
 
 ---
 
